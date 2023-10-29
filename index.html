@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MATTER</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Lato&family=Noto+Sans&family=Poppins:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="background-img">
+    <div class="background-img-content">
+      <div class="logo">
+        <img src="images/logo.png">
+        <div class="logo-second-part">
+          <img src="images/logo-second-part.png" alt="">
+          <h1>MATTER</h1>
+        </div>
+      </div>
+      <div class="background-img-text">
+        <h1>CONVERTER <br>
+          MATHEMATICAL&nbsp;OPERATIONS <br>
+          AGE CATEGORIZER</h1>
+      </div>
+      </div>
+    </div>
+</header>
+
+<nav class="main-nav">
+  <div class="main-nav-content">
+  <ul id="ulNavigation">
+    <li><a href="">CONVERTER</a></li>
+    <li><a href="">MATH OPERATIONS</a></li>
+    <li><a href="">AGE CATEGORIZER</a></li>
+  </ul>
+  </div>
+</nav>
+  <!--Task 1 start-->
+  <div id="milesConverter" class="miles-convertor">
+    <div class="addition">
+    <p>The <span>kilometre</span> is unit of length in the metric system equivalent to one thousand metres.
+      <span>1Km</span> is equivalent to <span>0.6214 miles.</span> </p>
+  </div>
+    <div class="miles-converter-content">
+      <div class="block-converter">
+        <h1>MILES CONVERTER</h1>
+        <input id="inputKilometres" type="text" placeholder="Write kilometres"><br>
+        <button id="countMiles">COUNT</button><br>
+        <span id="milesResult"></span>
+      </div>
+      <div class="miles-convertor-img">
+        <img src="images/miles-converter (2).jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <!--Task 1 end-->
+
+  <!--Task 2 start-->
+  <div id="mathematicalOperations" class="mathematical-operations">
+    <div class="mathematical-operations-container">
+      <div class="mathematical-operations-img">
+        <img src="images/mathematical-operations.jpg">
+      </div>
+      <div class="mathematical-operations-counter">
+        <h1>MATHEMATICAL OPERATIONS</h1>
+        <input id="inputNumberOne" type="text" placeholder="Write a number"><br>
+        <input id="inputNumberTwo" type="text" placeholder="Write a number"><br>
+       <div class="select-and-count">
+          <select id="selectGeneral">
+            <option>+</option>
+            <option>-</option>
+            <option>*</option>
+            <option>/</option>
+          </select>
+          <button id="count">COUNT</button>
+       </div>
+        <span id="showResult"></span>
+      </div>
+    </div>
+  </div>
+  <!--Task 2 end-->
+
+  <!--Task 3 start-->
+  <div id="ageCategory" class="age-category">
+    <div class="age-category-container">
+      <div class="age-category-counter">
+        <h1>AGE CATEGORIZER</h1>
+        <input id="inputAge" type="text" placeholder="Write an age"><br>
+        <button id="outputAge">OUTPUT AGE</button>
+        <span id="showAge"></span>
+      </div>
+      <div class="age-category-img">
+        <img src="images/age-categorizer.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <!--Task 3 end-->
+
+<script src="./script.js"></script>
+</body>
+</html>
